@@ -1,7 +1,8 @@
 # OBFUSCURO
 
 This is the repository for Obfuscuro, a commodity obfuscation
-Engine for Intel SGX, accepted at NDSS 2019.
+Engine for Intel SGX, accepted at NDSS 2019.  
+
 2023.09.04 lcy did some modification to this project, making it suitable for some extension on more machine.
 [Paper](https://web.ics.purdue.edu/~ahmad37/papers/obfuscuro.pdf)
 
