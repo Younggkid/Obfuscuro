@@ -1,10 +1,10 @@
 # OBFUSCURO
 
 This is the repository for Obfuscuro, a commodity obfuscation
-Engine for Intel SGX, accepted at NDSS 2019.  
+Engine for Intel SGX, accepted at NDSS 2019.  [Paper](https://web.ics.purdue.edu/~ahmad37/papers/obfuscuro.pdf)
 
-2023.09.04 lcy did some modification to this project, making it suitable for some extension on more machine.
-[Paper](https://web.ics.purdue.edu/~ahmad37/papers/obfuscuro.pdf)
+2023.09.04 I did some modification to this project, making it suitable for some extension on more machines.
+
 
 # Installation Procedure
 
@@ -24,7 +24,8 @@ To install the LLVM compiler, please do as follows:
 
 ## STEP2: Intel SGX Driver
 
-To install the Intel SGX Driver for Linux, please do as follows:
+To install the Intel SGX Driver for Linux, please do as follows:  
+make sure : the kernel version is 4.15.0-42, or something wrong will happen.
 
 `cd scripts`
 `./install-driver.sh`

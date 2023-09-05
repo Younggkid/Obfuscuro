@@ -5,4 +5,4 @@ source ../../libs/linux-sgx/sgxsdk/environment
 REASLR=../../ make clean
 REASLR=../../ make
 
-sudo ./app
+sudo LD_LIBRARY_PATH=/usr/lib ./app
